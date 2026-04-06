@@ -3,7 +3,7 @@ Cronograma e Matriz Crystal
 
 
 Gráfico de Gantt (Cronograma)
-` ` `mermaid
+```mermaid
 
    gantt
     title Cronograma TechConnect
@@ -25,10 +25,10 @@ Gráfico de Gantt (Cronograma)
     Testar tudo com QA e Usuários :d1, after c3, 25d
     Entregar o Sistema :e1, after d1, 5d
 
-` ` `
+```
 
 Matriz de Atenção Crystal Clear
-` ` `mermaid
+```mermaid
 
    flowchart TD
     A[Foco do Projeto] --> B(O que vamos entregar)
@@ -55,4 +55,4 @@ Matriz de Atenção Crystal Clear
     style G1 fill:#fef0bd,stroke:#333,stroke-width:2px
     style H1 fill:#fef0bd,stroke:#333,stroke-width:2px
 
-` ` `
+```
