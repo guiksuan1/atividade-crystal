@@ -31,28 +31,29 @@ Matriz de Atenção Crystal Clear
 ```mermaid
 
    flowchart TD
-    A[Foco do Projeto] --> B(O que vamos entregar)
-    A --> C(Como vamos conversar)
+    A[Foco do Projeto] --> B(O que entregar)
+    A --> C(Comunicação da Equipe)
 
     B --> D[Login e Cadastros]
-    D -. Cuidado .-> D1[Segurança e Banco de Dados ok?]
+    D -. Cuidado .-> D1[Segurança dos dados e senhas]
 
-    B --> E[Upload de Logos]
-    E -. Cuidado .-> E1[Bloquear vírus e arquivos inválidos]
+    B --> E[Fotos e Logotipos]
+    E -. Cuidado .-> E1[Bloquear vírus e arquivos pesados]
 
     B --> F[Relatórios e Painel]
-    F -. Cuidado .-> F1[Garantir que ninguém veja o que não deve]
+    F -. Cuidado .-> F1[Garantir que só quem tem senha consiga ver]
 
     C --> G[Reuniões Diárias]
-    G -. Cuidado .-> G1[Ser rápido e não enrolar, focando no que importa]
+    G -. Cuidado .-> G1[Ser rápido: resolver problemas e voltar a produzir]
 
-    C --> H[Mostrar pra Diretoria]
-    H -. Cuidado .-> H1[Ver se eles estão gostando e não fugir do escopo]
+    C --> H[Validação com o Cliente]
+    H -. Cuidado .-> H1[Ver se o cliente está satisfeito com a entrega]
     
-    style D1 fill:#f9d0c4,stroke:#333,stroke-width:2px
-    style E1 fill:#f9d0c4,stroke:#333,stroke-width:2px
-    style F1 fill:#f9d0c4,stroke:#333,stroke-width:2px
-    style G1 fill:#fef0bd,stroke:#333,stroke-width:2px
-    style H1 fill:#fef0bd,stroke:#333,stroke-width:2px
+    %% AJUSTE DE CORES E LEGIBILIDADE
+    style D1 fill:#FF9999,stroke:#333,stroke-width:2px,color:#000
+    style E1 fill:#FF9999,stroke:#333,stroke-width:2px,color:#000
+    style F1 fill:#FF9999,stroke:#333,stroke-width:2px,color:#000
+    style G1 fill:#FFD700,stroke:#333,stroke-width:2px,color:#000
+    style H1 fill:#FFD700,stroke:#333,stroke-width:2px,color:#000
 
 ```
